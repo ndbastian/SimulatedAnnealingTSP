@@ -31,7 +31,7 @@ totCost <- function(x, C){
   return (cost)
 }
 
-# Function that performs Metropolis-Hastings simulated annealing optimization.
+# Function that performs Simulated Annealing optimization.
 # Returns the solution vector x and the cost of the solution s
 simulatedAnnealing <-function(T0, beta, iter){
   # Initialize
